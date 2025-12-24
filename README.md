@@ -9,3 +9,23 @@
 6. the train_ppo python file will run and obtain the trained data
 7. test_ppo python file will run to identify the sequence
 8. robot controller will go towards the object and pick each one up with overhand grasp on the centroid of the blocks
+
+---
+
+## Dependencies
+
+0. whatever dependencies wrs  and realsens3e demands
+1. dqrobotics zmq interface
+```bash
+pip install dqrobotics-interface-coppeliasim-zmq
+```
+
+2. gymnasium environment
+```bash
+pip install gymnasium
+```
+3. stable_baseline3
+```bash
+pip install stable-baselines3
+```
+
