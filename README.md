@@ -29,3 +29,10 @@ pip install gymnasium
 pip install stable-baselines3
 ```
 
+```bash
+pip install tensorboard
+```
+
+```bash
+pip install torch torchvision torchaudio
+```
